@@ -1,0 +1,53 @@
+1. what is Javascript
+2. How do webpage work?
+3. How javascript code is executed?
+4. Installation -- install vscode then install prettier and live server
+5. Adding javascript to the website
+   2 ways
+  ---------
+  * adding script inside head
+  * adding script inside body (best practice)
+6. Variables
+   * using var
+   * using let
+   * using const
+7. Variable naming / Rules of identifiers
+8. Data types
+   a)primitive datatypes
+    ---------------------
+    * string  -  ' ' or " "
+    * number  -  12 or 12.56
+    * boolean -  true / false
+    * undefined - return type is undefined
+    * null    -   return type is Object
+9. NaN
+10. String interpolation / Template literals
+11. b)non - primitive datatypes
+    ----------------------------
+    * Array
+    * Object
+    * Function
+    * Math object
+    * Date object
+12. Array
+    * Use of an array
+    * Declaration/Creation & initialization of an array @ same line
+    * Declaration/Creation & initialization of an array @ different line
+    * Declaration/Creation of an array using new keyword
+    * Accessing an array elements
+    * Modifying/Changing an array
+13. Object
+   * Creating an Object
+   * Creating an Object using new keyword
+   * Accessing an Object  (3 ways)
+    ------------------------------
+     a) using . operator
+     b) using []
+     c) using for-in loop
+note :- We can't iterate Object using for loop
+14. Array of Object
+    * to get books price more than 1000
+    * books whose title length is more than 4
+15. 
+
+     

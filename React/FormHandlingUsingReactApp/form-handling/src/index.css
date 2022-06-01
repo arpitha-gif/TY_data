@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.FormData{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.FormData label{
+  text-align: left;
+  display: block;
+}
+
+.FormData h2{
+  font-size: 20px;
+  color: brown;
+  margin-bottom: 30px;
+}
+
+.FormData input, .FormData select{
+  width: 200px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border:1px solid green;
+  box-sizing: border-box;
+  display: block;
+}
+
+.FormData button{
+  background: red;
+  color: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}

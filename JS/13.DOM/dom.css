@@ -1,0 +1,25 @@
+.demo{
+    border:1px solid brown;
+    background:antiquewhite;
+    width:100px;
+}
+
+.randomStyle{
+    color: blueviolet;
+    background-color: yellow;
+    padding:10px;
+    text-align: center;
+}
+.randomStyle1{
+    border-radius: 10px;
+    border:1px solid red;
+}
+
+.demo1{
+    background-color: blueviolet;
+    color: floralwhite;
+    width:45%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+}

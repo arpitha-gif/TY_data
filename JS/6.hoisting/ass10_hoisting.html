@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOISTING</title>
+  </head>
+  <body>
+    <script>
+      //hoisting
+      // when a variable is used first and declared later then it is known as variable hoisting
+      // in this case by default variable name is moved to the top without the value which returns
+      // undefined value, when the output statement is called it returns undefined as the value is
+      // left at the bottom
+
+      var a = 10;
+      function vari() {
+        console.log(a);
+        var a = 40;
+      }
+      vari();
+
+      console.log("===================");
+
+      getid();
+      function getid() {
+        console.log("hello");
+      }
+
+      console.log("===================");
+      // wish()
+      var wish = () => {
+        console.log("happy ahppy");
+      };
+      wish();
+    </script>
+  </body>
+</html>

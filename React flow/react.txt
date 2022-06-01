@@ -1,0 +1,123 @@
+React
+------
+1. Introduction/What is React?
+2. Single page application
+3. Why React? (3rd party lib)
+4. Features/Advantages
+5. Limitations
+6. To work with React? (React lib & R-DOM lib)
+7. Diff b/w library and framework
+8. How web application working before?
+9. Difference between Real DOM and VDOM
+10. Create React Element
+    --><ul>
+         <li>car</li>
+         <li>bike</li>
+       </ul>
+11. mobiles example (key attribute used to uniqly identify the elements)
+12. stack overflow survey 2021(learning & pblm solving)
+13. Jsx
+14. Babel
+    --> jsx code(pgm) -- mobiles
+15. Header, Content, Footer
+16. Components
+17. Types of components
+18. Class component (syntax)
+    --> basic(single class) pgm
+    --> multiple class pgm
+    --> what to remember in class component
+19. Functional component
+    --> basic (simple) pgm without props
+    --> props in functional component (Funcomp2.js)
+    --> props destructuring (Funcomp3.js)
+    --> Storing obj to variable pass as props (Funcomp3.js)
+20. We cant change props(WecantChange(folder))
+21. What is props ( Props are the arguments passed into React Component)
+22. state in class component
+    --> what is state? (state is property of class. used to initialize object)
+    --> basic program (state.js)
+    --> how to mutate(change) the state
+    --> explain set state with syntax
+    --> example pgm setState(onclick of button)
+23. Diff b/w classcomponent and functional component
+
+24. When to use 'this' in class component
+25. Unidirectional
+26. Passing data from Parent to Child
+27. simple event program (do it in class component nd give assignment in FC)
+28. Passing data from Child to Parent
+29. Diff b/w props and state
+30. Component Lifecycle 
+     --> What is Lifecycle
+     --> Phases of Lifecycle
+31. Mounting phase (*Mounting is the phase in which our React component mounts on the DOM
+                    *In this phase, our component renders the first time.)     
+    -->Explain methods(refer ppt)
+    -->program
+32. Updating
+33. Unmounting
+34. Conditional Rendering
+
+1.React Hooks
+2. useState with program
+
+
+bind()
+1. Create react project
+  -->explain all the component in it
+2. import and export
+3. Router,route,link
+4. props drilling
+5. context api
+
+5. useEffect()
+6. useRef
+7. Fetch data using fetch 
+8. axios
+   -->get
+   -->Post
+9. fragments
+10.pure component
+
+
+import React, { Component } from 'react'
+
+export default class Product extends Component {
+    constructor(props){
+        super(props)
+        this.state={
+            prodData:[]
+        }
+    }
+ 
+    handleSubmit=(e)=>{
+        e.preventDefault();
+        let prodData = this.state.prodData
+        let prodName = this.refs.prodName.value
+        let prodAge = this.ref.prodAge.value
+
+        let newProduct = {
+            "name": prodName,
+            "age": prodAge
+            }
+        prodData.push(newProduct) ;       }
+    }
+
+  render() {
+    return (
+      <div>
+          <form>
+              <label>Name</label>
+              <input type="text" ref="prodName" placeholder='Enter Name'/>
+              <br/>
+              <label>Age</label>
+              <input type="age" ref="prodAge" placeholder='Enter age'/>
+              <br/>
+              <button onClick={(e)=>this.handleSubmit(e)}>Save</button>
+          </form>
+      </div>
+    )
+  }
+}
+
+postman://auth/callback?code=4fbc558a8ffeedad1ef91db4a6d0565a9ae9dba180f4513bfa15fd2aa2bab8b7

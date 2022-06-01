@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./event.css" />
+</head>
+
+<body>
+    <h1 class='showHideName'>Satyam</h1>
+    <div class=btn>
+    <button class="btn1 " onclick="showName()">Show Name</button>
+    <button class="btn1 " onclick="hideName()">Hide Name</button>
+    <button class="btn1 " onclick="showHideName()">Show/Hide Name</button>
+    <button class="btn1 "  onmouseover="showName()" onmouseout="hideName()">Show/Hide Name by Mouse Hover</button>
+    </div>
+
+    <hr>
+    <label>Price: </label>
+    <input value="" type="number" id="price" onkeydown="getPrice()" onkeyup="showPrice()">
+
+    <div id="priceValue"></div>
+
+    <!-- // eventlistener -->
+    <button id='clickEvent' >click</button>
+    <input  id="nameValue">
+    <br>
+
+    <label for=''>Agree terms and conditions</label>
+    <input type="checkbox" name="" id="agree" >
+    <br>
+
+    <div>
+        <input type="radio" name="gender" id="male">Male
+        <input type="radio" name="gender" id="female">Female
+    </div>
+    <button id="checkAgree">Check and Agree</button>
+
+    <button id='cliko' >click</button>
+    <script src="./events.js"></script>
+</body>
+</html>

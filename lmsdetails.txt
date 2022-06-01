@@ -1,0 +1,56 @@
+batches done 
+mentors done
+
+admin module 
+-----------
+1. login (admin register)
+2. menter reg   --   localhost:3000/lmsuser/mentorregister
+3. batch creation  -- localhost:3000/lms/batchregister
+4. batch deletion  -- localhost:3000/lms/deletebatch?batchId=b111
+5. batch edit      -- localhost:3000/lms/editbatch?batchId=b4
+6. menter edit     -- localhost:3000/lmsuser/mentoredit
+7. menter delete   -- localhost:3000/lmsuser/mentordelete?batchId=b1
+8. get all the menters   -- localhost:3000/lmsuser/mentorslist
+9. get all the batches   -- localhost:3000/lms/allbatches
+10.get all the employees -- localhost:3000/lmsuser/mentorslist
+
+menter module
+-------------
+1. get all the employee data based empidid -- localhost:3000/lmsuser/allemployees
+2. get all the batches which is assigned to mentior based on mentor id -  localhost:3000/lms/allbatches
+3. get attendenceof the employee -  localhost:3000/lms/getemployeeattendance?empId=13576
+4. Create mock  -  localhost:3000/lms/mockcreate
+5. give rating  -  localhost:3000/lms/mockrating
+6. get created mock - localhost:3000/lms/getcreatedmocks
+
+Employees module
+----------------
+1. Regestarion form
+2. Reset pwd - localhost:3000/lmsuser/resetpassword
+   employeeRegisterApprove -  localhost:3000/lmsuser/empregisterapprove
+3. get the particualr employee data
+4. View the profile
+5. edit the profile(not done)
+
+
+{
+   "mentorName": "ASjay",
+   "empId":"99988",
+   "emailId":"ajay@gmail.com",
+   "skills":[{
+        "sName":"java"
+   }]
+}
+
+{
+    "batchName":"Java",
+    "batchId":"j1",
+    "empId":"d1112",
+    "technologies":[{
+        "technologyName":"Java"
+    }],
+    "startDate":"10/5/2022",
+    "endDate":"29/6/2022",
+    "status":"to be started"
+}
+

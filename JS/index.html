@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script>
+        console.log('hello world');
+        var name=`alia `;
+        var age = 28;
+        var isMarried=true
+        console.log("name " + name)
+        console.log("Age " + age)
+        console.log("Married " + isMarried)
+
+        var x;
+        console.log("x " + x);
+        var y=null;
+        console.log("y " + y);
+    </script> -->
+</head>
+<script>
+    var person={
+
+        firstName:"soja",
+        lastName:"moja",
+        age:44,
+        color:"white",
+        fullName:function(){
+            return person.firstName+'-'+this.lastName;
+        }
+    }
+//    console.log('First Name ' + person.firstName) ;
+//    console.log('Last Name ' + person.lastName) ;
+//    console.log('Age ' + person.age) ;
+//    console.log('Full Name ' + person.fullName()) ;
+
+// console.log("===============================");
+
+    console.log('First Name ', person["firstName"])
+    console.log('Last Name '+ person["lastName"])
+    console.log('Age '+ person["age"])
+    console.log('Color '+ person["color"]);
+    var fullName=person["fullName"]()
+    console.log('Full name ' + fullName)
+
+//     console.log("===========================");
+
+// // object using new keyword 
+//     var car= new Object();
+//     car.name="bmw",
+//     car.color="red",
+//     car.price=16000.99
+
+//     console.log('Name '+ car.name);
+//     console.log('color '+ car.color);
+//     console.log('price '+ car.price);
+</script>
+<body>
+</body>
+</html>

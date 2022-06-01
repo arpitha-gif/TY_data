@@ -1,0 +1,59 @@
+mongodb syllabus
+-----------------
+
+1.Data
+2.Database. (diagram)
+3.mongodb
+4.diff b/w sql & mongodb
+5.collection
+6.documents.
+7.json structure
+8.Note
+9.Why we should learn mongodb?
+10.Installation
+11.Creating folder and Check port
+12.>mongo shell
+13.Check existing db's
+14.create db's
+16.check dbs
+17.create collections 
+18.Insert record
+   -->insert multiple records
+   -->insert array of records
+19.Explain id
+20.find()
+21.can we insert _id manually?
+   -->try with same id diiferent record
+   -->try without quotes
+22.what will happen if i create multiple obj? (it adds only 1st record)
+     sol: array
+23. 2 methods of insert
+24. Retrieval of data from collection (read)
+    -->Queries
+25.Comparision operators
+26.Logical operators
+27.Element Operators 
+   -->exists
+   -->type (change the data type by update operation(db.emp.update({_id:1},{$set:{sal:'ten thousand'}})) nd check )
+28.findOne()  --> display very first record[
+29.limit()
+30.count() -->limit() will not have any impact on count()
+31.sort()
+32.update({selection},{updation})
+33.explain update operators
+34.queries
+35.delete
+   -->remove
+   deleteOne()
+   deleteMany()
+36.drop the collection
+37.drop the database.
+38.Aggregation
+
+
+
+
+doubts
+------
+1.why Mongodb is optional schema based?
+2.

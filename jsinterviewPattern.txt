@@ -1,0 +1,43 @@
+
+console.log(funExpr); // hello
+
+funExpr(); // ????? hello
+
+var funExpr = function() {
+console.log('hello')
+}
+
+funExpr() // hello
+
+
+
+
+var funExpr;
+console.log(funExpr); // undefined
+funExpr() // error
+
+
+funExpr = function() {
+	console.log('hello')
+}
+funExpr() // hello
+
+
+let array = [1, 2, 3, 4, false, '', null, undefined]; // remove all falsy value from an array
+a\
+
+
+array = array.filter(Boolean);
+
+
+
+
+setTimeout(function() {
+	console.log('test');
+}, 1000)
+
+setTimeout(function() {
+	console.log('test');
+})
+
+

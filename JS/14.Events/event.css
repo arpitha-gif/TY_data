@@ -1,0 +1,16 @@
+.showHideName{
+    visibility: hidden;
+    color:red;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
+.btn1{
+    padding:8px;
+    color:floralwhite;
+    background-color: blueviolet;
+    border-radius: 100px;
+    border: none;
+}

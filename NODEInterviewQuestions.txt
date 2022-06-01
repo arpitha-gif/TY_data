@@ -1,0 +1,163 @@
+note :- Node.js is based on an event-driven non-blocking I/O model
+
+•	What is node js
+ 
+•	API Methods and how it uses
+            HTTP methods in Restful APP are GET,POST,PUT,DELETE,PATCH
+
+•	API Functions
+        Synchrounous/Blocking
+        Asynchronous/Non-blocking
+
+--> third party module - mongoose,express,react etc
+
+--> EventEmitter()
+        
+•	How to do Error Handling
+           using .then .catch next()
+
+•	Timming Feaututres
+           setTimeout(), setImmediate(), and setInterval() clearInterval()
+
+•	Middle Ware
+
+•	Node Environment or Architechture
+•	Longitude & Latitude
+1.	How many types of API functions are there in Node.js?
+2.	What is the difference between Asynchronous and Non-blocking?
+3.	What is the difference between var, const and let?
+4.	What is an Event loop
+5.	What’s the difference between ‘front-end’ and ‘back-end’ development?
+6.	Explain the concept of middleware in Node.js?
+7.	What do you understand by global objects in Node.js?
+8.	Explain stream in Node.js along with its various types.
+9.	What is the use of NODE_ENV?
+10.	List down the various timing features of Node.js
+
+jwt.sign()-->to generate token
+res.json(token)
+
+attendenceempId0empId
+
+function isPalindrome(str) {
+	var s="";
+	for(int i=str.length-1; i>=0; i--){
+  		s+=str.charAt(i);
+  }
+  if(s === str)
+  	return true;
+  return false;
+}
+
+ababa true
+abcdef false
+
+
+let number = 0;
+console.log(number++); // 0
+console.log(++number); // 2
+console.log(number);  // 2
+
+
+function getName() {
+  'use strict';
+  name = ‘abc’;
+  console.log(name);  
+}
+getName();  // abc
+
+var val1= false || 0 || “” || null;  // false
+var val2 = false && 0 && '' && null;  //  null 
+
+Console.log(val1);
+console.log(val2);
+
+
+console.log(typeof typeof 1);  // number
+console.log('1' - - '1');  // 1
+console.log('1' + - '1'); // 0
+
+
+
+class final ClassName{
+
+	
+	private ClassType Variable;
+
+	Private  ClassName(){
+  	
+  }
+
+  public getInstance(){
+    if(Variable == null)
+      retunr new ClassJect
+    return Variable;
+
+  }	
+}
+
+
+table EMP 
+empid date attendance
+1001  22/05/2022 0 --> absent
+1001 23/05/2022 1 --> present
+
+
+console.log((0 || 1));
+console.log((1 || 2));
+console.log((0 && 1));
+console.log((1 && 2));
+You18:04
+true
+true
+false
+true
+Shashank Tripathi18:07
+function foo1()
+{
+  return {
+      bar: "hello"
+  };
+}
+
+function foo2()
+{
+  return 
+  {
+      bar: "hello"
+  };
+}
+
+
+console.log(foo1());
+console.log(foo2());
+Shashank Tripathi18:12
+v.v.v
+0 <= v <= 40
+"12.2.34 1.2.6"
+"ver1 ver2"
+12.2.34 is the greater version
+Shashank Tripathi18:14
+greaterVersion("1.2.34 1.2.6")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------
